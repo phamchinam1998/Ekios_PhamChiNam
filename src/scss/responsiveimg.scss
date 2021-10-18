@@ -1,0 +1,22 @@
+.ratio-container {
+    overflow: hidden;
+    border-radius: inherit;
+    width: 100%;
+    .ratio-group {
+        overflow: hidden;
+        border-radius: inherit;
+        width: 100%;
+        position: relative;
+        background-color: #ccc;
+        :first-child {
+            border-radius: inherit;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

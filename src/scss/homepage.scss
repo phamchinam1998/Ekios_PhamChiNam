@@ -1,0 +1,30 @@
+.empty {
+    width: 100%;
+    height: 312px;
+    background-image: url("../assets/noItem.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.container {
+    padding: 0 160px;
+    background-color: #f8f8fb;
+}
+
+.divider {
+    padding: {
+        top: 40px;
+        bottom: 40px;
+    }
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #23262f;
+}
+
+@media screen and (max-width: 1064px) {
+    .container {
+        padding: 0 32px;
+    }
+}
